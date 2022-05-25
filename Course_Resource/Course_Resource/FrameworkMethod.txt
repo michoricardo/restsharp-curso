@@ -1,0 +1,18 @@
+1. HttpClient
+	- Add headers to HttpClient
+	
+2. HttpRequestMessage
+	- Request url
+	- Content - POST
+	- MediaType
+	
+3. Capture the response and add the validation
+
+1. AddHeadersAndCreateHttpClient(Headers)
+2. CreateHttpRequestMessage(RequestUrl, Content, HttpMethod)
+3. SendRequest()
+	- AddHeadersAndCreateHttpClient
+	- CreateHttpRequestMessage
+	- RestResponse
+	
+https://docs.atlassian.com/software/jira/docs/api/REST/8.4.3/

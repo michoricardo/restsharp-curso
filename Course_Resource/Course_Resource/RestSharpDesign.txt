@@ -1,0 +1,12 @@
+RestClientHelper
+	1. GetRestClient -> Create the Rest Client and return it
+	2. GetRestRequest() -> Create the request and return it 
+		- endpoint url
+		- headers
+		- body
+		- Type of Request
+	3. SendRequest() - >Send the request using client and return the response
+	4. SendRequest<T> () - > Send the request using client and deserialize the response
+	5. PerformGetRequest()
+	6. PerformPutRequest()
+	7. PerformDeleteRequest()
